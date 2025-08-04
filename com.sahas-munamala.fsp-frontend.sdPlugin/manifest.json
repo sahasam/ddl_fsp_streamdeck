@@ -50,6 +50,22 @@
 					"TitleAlignment": "middle"
 				}
 			]
+		},
+		{
+			"Name": "FSP-Restart",
+			"UUID": "com.sahas-munamala.fsp-frontend.fsp-restart",
+			"Icon": "imgs/actions/counter/icon",
+			"Tooltip": "Displays the value of the FSP",
+			"PropertyInspectorPath": "ui/increment-counter.html",
+			"Controllers": [
+				"Keypad"
+			],
+			"States": [
+				{
+					"Image": "imgs/actions/restart/category-icon",
+					"TitleAlignment": "middle"
+				}
+			]
 		}
 	],
 	"Category": "FSP-Frontend",
