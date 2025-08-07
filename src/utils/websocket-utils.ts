@@ -195,6 +195,7 @@ function processJsonData(jsonData: any) {
                 const currentState = jsonData.data[firstKey]?.current_state;
                 if (currentState) {
                     updateFSPState(currentState);
+                    streamDeck.logger.info("fucking kill me: ", currentState)
                 }
             }
         }

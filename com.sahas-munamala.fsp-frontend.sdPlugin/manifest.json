@@ -30,7 +30,7 @@
 			],
 			"States": [
 				{
-					"Image": "imgs/actions/counter/key",
+					"Image": "imgs/actions/soldier/robot_resized_72x72",
 					"TitleAlignment": "middle"
 				}
 			]
